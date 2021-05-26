@@ -1,0 +1,475 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+  
+  }
+  /*header*/
+.HeaderL{
+  width: 20%;
+  height: 600px;
+  margin-left: 10%;
+  padding-top: 30px;
+  float: left;
+}
+.HeaderL img
+{
+position: fixed; 
+}
+.Title
+{
+position:fixed;
+margin-left: 30px;
+color:rgb(192, 153, 125);
+}
+.link
+{
+ margin-top: 150px;
+}
+.link1
+{
+ position: fixed;
+ margin-left: 110px;
+ border-bottom: 2px solid black;
+ width: 50px;
+}
+.link2
+{
+  position: fixed;
+  margin-left: 110px;
+  border-bottom: 2px solid black;
+  width: 50px;
+}
+.link3
+{
+  position: fixed;
+  margin-left: 110px;
+  border-bottom: 2px solid black;
+  width: 50px; 
+}
+.link4
+{
+  position: fixed;
+  margin-left: 110px;
+  border-bottom: 2px solid black;
+  width: 50px; 
+}
+.link5
+{
+  position: fixed;
+  margin-left: 110px;
+  border-bottom: 2px solid black;
+  width: 50px; 
+}
+a{
+  text-decoration: none;
+}
+
+/*Header Rigts side*/
+.HeaderR
+{
+  float: left;
+  background-color: red;
+  
+}
+.clear
+{
+  clear: both;
+}
+.header1
+{
+  text-align: center;
+  margin-top: -350px;
+}
+.head
+{
+  margin-left:180px ;
+  margin-top: 300px;
+  width: 350px;
+}
+.limage
+{
+  margin-top: 10px;
+  margin-left: 40px;
+  
+}
+
+.limage1
+{
+  position: absolute;
+  margin-top: 10px;
+  margin-left:20px ;
+  z-index: 1; 
+  border: 4px solid black;
+}
+.limage2
+{
+  position: absolute;
+  margin-top: 20px;
+  margin-left:40px ;
+  z-index: 2;
+  border: 4px solid gray;
+}
+.limage3
+{
+  position: absolute;
+  margin-top: 30px;
+  margin-left:60px ;
+  z-index: 3;
+  border: 4px solid black;
+}
+.limage4
+{
+  position: absolute;
+  margin-top: 45px;
+  margin-left:80px ;
+  z-index: 4;
+  border: 4px solid black;
+}
+.cimage
+{
+margin-left: 40px;
+}
+.cimage1
+{
+  position: absolute;
+  margin-top: 45px;
+  margin-left:184px ;
+  z-index: 5;
+  border: 4px solid black;
+}
+.cimage2
+{
+  position: absolute;
+  margin-top: 45px;
+  margin-left:288px ;
+  z-index: 6;
+  border: 4px solid grey;
+}
+.cimage3
+{
+  position: absolute;
+  margin-top: 45px;
+  margin-left:392px ;
+  z-index: 7;
+  border: 4px solid black;
+}
+.cimage4
+{
+  position: absolute;
+  margin-top: 45px;
+  margin-left:496px ;
+  z-index: 8;
+  border: 4px solid black;
+}
+.rimage{
+  margin-left: 40px;
+}
+.rimage1
+{
+  position: absolute;
+  margin-top: 30px;
+  margin-left:520px ;
+  z-index: 9;
+  border: 4px solid black;
+}
+.rimage2
+{
+  position: absolute;
+  margin-top: 15px;
+  margin-left:540px ;
+  z-index: 10;
+  border: 4px solid black;
+}
+.rimage3
+{
+  position: absolute;
+  margin-top: 5px;
+  margin-left:560px ;
+  z-index: 11;
+  border: 4px solid black;
+}
+.body
+{
+ margin-top: 70px; 
+ margin-left: 20px;
+ border: 3px solid black;
+ width: 800px;
+ padding: 5px;
+ background-color: goldenrod;
+ 
+}
+.body hr{
+  width: 800px;
+  margin-top: -6px;
+  margin-left: -8px;
+  border: 2px solid black;
+}
+
+.bodyi{
+  display: flex; 
+  margin-left: 65px;
+  margin-top: 20px;
+}
+.img1
+{
+padding: 20px;
+transform: skew(30deg);
+}
+.img2
+{
+padding: 20px;
+transform: scale(1);
+}
+.img3
+{
+padding: 20px;
+transform: skew(-20deg);
+}
+.img1:hover{
+  
+cursor: pointer;
+}
+.kavithai{
+  width: 800px;
+}
+.kavithai p{
+margin-left: 220px;
+margin-top: -220px;
+}
+.kavi{
+  padding: 20px 10px 20px 10px;
+}
+.kavi:hover{
+  cursor: pointer;
+  transition: all 2s linear;
+  transform: rotateX(360deg)
+}
+
+.sh hr{
+  border: 4px solid black;
+  width: 800px;
+  margin-left: 10px;
+}
+.Types{
+  border: 2px solid black;
+  height: 50px;
+  width: 130px;
+  margin-top: -20px;
+  background-color: gold;
+}
+
+.float{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.float1{
+  border: 2px solid black;
+  background-color:royalblue;
+}
+.float2{
+  border: 2px solid black;
+  background-color:red;
+}
+.float3{
+  border: 2px solid black;
+  background-color: springgreen;
+}
+.sales{
+  margin-top: 30px;
+  width: 400px ;
+  height:250px ;
+  line-height: 30px;
+  float: left;
+  margin-left:20px ;
+}
+.sales h3{
+  font-weight: bold;
+  text-align: center;
+}
+.sales0{
+  float: right;
+  margin-top: 30px;
+  margin-right: 210px;
+}
+.sales1{
+  background: crimson;
+  border: 2px solid black;
+  width: 70px;
+  height: 50px;
+  text-align: left;
+  transition-timing-function: linear;
+  transition-duration: 2ms;
+}
+.sales1:hover{
+  cursor: pointer;
+  width: 300px;
+}
+.sales2{
+  background: crimson;
+  border: 2px solid black;
+  width: 140px;
+  height: 50px;
+  text-align: left;
+  transition-timing-function: linear;
+  transition-duration: 2ms;
+  
+}
+.sales2:hover{
+  cursor: pointer;
+  width: 300px;
+}
+.sales3{
+  background: crimson;
+  border: 2px solid black;
+  width: 70px;
+  height: 50px;
+  text-align: left;
+  transition-timing-function: linear;
+  transition-duration: 2ms;
+  
+}
+.sales3:hover{
+  cursor: pointer;
+  width: 300px;
+}
+.sales4{
+  background: crimson;
+  border: 2px solid black;
+  width: 70px;
+  height: 50px;
+  text-align: left;
+  transition-timing-function: linear;
+  transition-duration: 2ms;
+  
+}
+.sales4:hover{
+  cursor: pointer;
+  width: 300px;
+}
+.sales5{
+  background: crimson;
+  border: 2px solid black;
+  width: 70px;
+  height: 50px;
+  text-align: left;
+  transition-timing-function: linear;
+  transition-duration: 2ms;
+  
+}
+.sales5:hover{
+  cursor: pointer;
+  width: -280px;
+}
+.header3{
+ margin-top: 300px; 
+ height: 3px;
+border: 3px solid black;
+margin-left: 10px; 
+}
+.h1{
+  margin-top: -5px;
+  border: 2px solid ;
+  width: 120px;
+  height: 65px;
+  text-align: center;
+  margin-left: 10px;
+}
+.imge{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-left: -60px;
+}
+.imge h4{
+  text-align: center;
+}
+.imges{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-left: -60px;
+}
+.imges h4{
+  text-align: center;
+}
+.center h3{
+  text-align: center;
+  border: 2px solid black;
+  width: 50px;
+  margin-left:400px ;
+  background-color: chartreuse;
+}
+.bor{
+  border: 2px solid black;
+}
+.Contactus{
+  border: 3px solid black;
+  width: 100px;
+  text-align: center;
+}
+.map{
+  margin-top: 30px;
+}
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-left: -95px;
+}
+.msg{
+  margin-top: 30px;
+}
+button{
+  background-color: brown;
+}
+.send{
+  width: 150px;
+  margin-top: 5px;
+}
+.footer{
+  margin-top: 20px;
+  padding-top: 15px;
+  text-align: center;
+  background-color: cornflowerblue;
+  background-color: 2px solid black;
+  height: 40px;
+}
+.copy{
+  text-align: center;
+  background-color: purple;
+  height: 40px;
+  padding-top: 15px;
+}
+@media only screen and (max-width:576px)
+{
+ .HeaderL,.link,{
+   width:100% ;
+ } 
+
+ .HeaderR,.header1{
+   width: 100%;
+ }
+ .limage,.limage1,.limage2,.limage3,.limage4{
+   width: 100%;
+ }
+ .cimage,.rimage,
+  .bodyi, .body, .kavithai,.kavi1
+  .kavi{
+  width: 100%; 
+ }
+ .Types.sales,.sales1,.sales2,.sales3,.sales4,.sales5{
+   width: 100%;
+ }
+ .imge,.imge1,.imge2,.imge3{
+   width: 100%;
+ }
+ .imges,.imges1,.imges2,.imges3{
+   width: 100%;
+ }
+}
+
+
+
